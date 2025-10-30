@@ -32,7 +32,7 @@ def on_message(ws, message):
         if data.get("e") == "trade":
             price = float(data['p'])
             if price != last_price:
-                print(f"\rPreço Atual: R${price}", end="", flush=True)
+                print(f"\r Actual Price: R${price}", end="", flush=True)
                 last_price = price
     except (KeyError, IndexError, TypeError, ValueError):
         pass
