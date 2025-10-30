@@ -17,36 +17,36 @@
 
 ---
 
-## 💡 Sobre
+## 💡 About
 
-Este é um projeto simples de **CLI Tracker** que acompanha o preço do **Litecoin (LTC)** em tempo real, utilizando a API WebSocket da [Binance](https://www.binance.com/). Toda vez que o preço mudar, ele é atualizado instantaneamente no terminal.
+This is a simple CLI Tracker project that monitors the Litecoin (LTC) price in real time using the [Binance](https://www.binance.com/). WebSocket API. Every time the price changes, it’s instantly updated in the terminal.
 
 ---
 
-## ⚙️ Tecnologias
+## ⚙️ Requirements/Technologies used
 
 - Python 3
 - [websocket-client](https://pypi.org/project/websocket-client/)
-- API WebSocket da Binance
+- API WebSocket Binance
 
 ---
 
-## 🧪 Instalação
+## 🧪 How to Install
 
-1. Clone o repositório:
+1. Clone the repository:
 
 ```bash
-git clone https://github.com/seu-usuario/ltc-price-cli.git
-cd ltc-price-cli
+git clone https://github.com/gregdotdev/websocket-crypto-watcher.git
+cd websocket-crypto-watcher
 ```
 
-2. Instale os requisitos:
+2. Install the requirements:
 
 ```bash
 pip install websocket-client
 ```
 
-3. Execute o programa:
+3. Execute the program:
 
 ```bash
 python tracker.py
@@ -54,23 +54,23 @@ python tracker.py
 
 ---
 
-## 📺 Exemplo de saída
+## 📺 Example of output
 
 ```
 Currently watching: LTC
 -------------------------------- 
 
-Preço Atual: R$358.24
+Actual Price: R$358.24
 ```
 
 ---
 
 ## 📝 Código principal
 
-O script conecta-se ao WebSocket de trades da Binance para o par `ltcbrl@trade`, e imprime o preço em tempo real sempre que houver alteração.
+The script connects to Binance’s trade WebSocket for the `ltcbrl@trade` pair and prints the real-time price whenever it changes.
 
 ---
 
 ## 📄 Licença
 
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+This projct is on the MIT License. See the archive [LICENSE](LICENSE) to more info.
